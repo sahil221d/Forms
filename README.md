@@ -55,13 +55,9 @@ Usage
 
 1.  Run the Django backend server:
 
-    bashCopy code
-
     `python manage.py runserver`
 
 2.  Run the React frontend:
-
-    bashCopy code
 
     `npm start`
 
