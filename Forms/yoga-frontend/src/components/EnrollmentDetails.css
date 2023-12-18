@@ -1,0 +1,26 @@
+
+
+.enrollment-details-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.details-heading {
+    color: #333;
+}
+
+.details-item {
+    margin-bottom: 10px;
+}
+
+.details-item strong {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+

@@ -1,0 +1,67 @@
+.enrollment-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.enrollment-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input,
+select,
+button {
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+.form-status {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    color: #155724; 
+    background-color: #d4edda; 
+    border: 1px solid #c3e6cb; 
+}
+
+/* EnrollmentForm.css */
+.enrolled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.enrolled-table th, .enrolled-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.enrolled-table th {
+    background-color: #f2f2f2;
+}
+
+.enrolled-table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+.form-status {
+    margin-top: 10px;
+    color: green;
+    font-weight: bold;
+}
+
